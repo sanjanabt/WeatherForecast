@@ -1,0 +1,28 @@
+Created By: Sanjana B T
+Application Name: Weather Forecast
+Android Native Application
+Languages Used: Android SDK Tools, Java
+API's: Openweathermap API[This is used to fetch the weather details].
+Rest Web API - Volley Library is used to send the request and get the response from the API.
+[Retrofit is other library which can be used to make API calls].
+
+Description : Application is android Native app designed to displays the current weather forecast for your device current location.
+Current Release:
+ * LocationManager object is initialised.
+ * ACCESS_FINE_LOCATION permission is required to the request location updates on NETWORK_PROVIDER.
+ * I have used the NETWORK_PROVIDER but GPS_PROVIDER can also be used.
+ * This app when the WIFI is connected makes a HTTP request for every 2 hours to the OpenWeatherMap API to retrieve the current local weather forecast.
+ * Weather forecast app displays the current location 'Temperature','Location','Latitude-Longitude','MaxTemp-MinTemp', 'Pressure',
+   'Humidity','Wind Speed'.
+
+Future Release:
+ * Weather forecast report for every 1 hour or a day can be displayed.
+ * UI can be enchanced for the new features by adding some animations.
+ * Can add a feature of selecting the city of location by users.
+ * Can also add some notifications.
+ * Include some graphs to display weather condition.
+ * Can add feature of Units settings
+ * can add a feature to Share the weather condition
+
+
+
